@@ -4,7 +4,7 @@ import app from "./index.js";
 
 const totalCpu = os.cpus().length;
 
-const port = 3000;
+const port=3000;
 
 if(cluster.isPrimary){
     console.log(`number of cpu is ${totalCpu}`);
